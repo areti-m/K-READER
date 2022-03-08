@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/icon1"
+        android:title="@string/title_home" />
+
+    <item
+        android:id="@+id/navigation_dashboard"
+        android:icon="@drawable/icon2"
+        android:title="@string/title_dashboard" />
+
+    <item
+        android:id="@+id/navigation_notifications"
+        android:icon="@drawable/icon3"
+        android:title="@string/title_notifications" />
+
+
+
+    <item android:id="@+id/savedItem"
+        android:icon="@drawable/saved_icon"
+        android:title="@string/title_save"
+        app:iconTint="@color/white"
+        android:visible="false"
+        app:showAsAction="always"
+        />
+
+    <item android:id="@+id/deleteItem"
+        android:icon="@drawable/delete_icon"
+        app:iconTint="@color/white"
+        android:visible="false"
+        android:title="@string/title_delete"
+        app:showAsAction="always"
+        />
+
+</menu>
+
