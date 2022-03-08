@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">K-READER</string>
+    <string name="title_home">Feed</string>
+    <string name="title_dashboard">Saved</string>
+    <string name="title_notifications">Information</string>
+    <string name="setting">Setting</string>
+    <string name="title_save">Save for offline reading</string>
+    <string name="title_delete">Delete</string>
+    <string name="app_details">
+        this is app details.    this is app details.  this is app details.  this is app details.  this is app details.  this is app details.
+          this is app details.  this is app details.  this is app details.  this is app details.  this is app details.
+          this is app details.  this is app details.  this is app details.  this is app details.  this is app details.
+          this is app details.  this is app details.  this is app details.  this is app details.
+          this is app details.  this is app details.  this is app details.  this is app details.
+          this is app details.  this is app details.  this is app details.  this is app details.
+    </string>
+</resources>

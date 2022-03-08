@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#151515"
+    tools:context=".ui.notifications.InformationFragment">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_height="90dp"
+                android:background="#0094C9"
+                android:layout_width="match_parent"
+                android:orientation="vertical">
+
+
+            </LinearLayout>
+
+            <TextView
+                android:gravity="center"
+                android:textSize="30dp"
+                android:textColor="#FFFFFF"
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="About Us" />
+
+            <TextView
+                android:layout_margin="15dp"
+                android:gravity="center"
+                android:textSize="14dp"
+                android:textColor="#FFFFFF"
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_details" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
